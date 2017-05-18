@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <SurfaceView
+                android:id="@+id/virtual_sv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+<!--
+            <pl.droidsonroids.gif.GifTextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/tumblr" />
+
+            <pl.droidsonroids.gif.GifTextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginLeft="@dimen/_220sdp"
+                android:layout_marginTop="@dimen/_170sdp"
+                android:background="@drawable/pika" />
+
+            <pl.droidsonroids.gif.GifTextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginLeft="@dimen/_66sdp"
+                android:layout_marginTop="@dimen/_300sdp"
+                android:background="@drawable/ic_char" />-->
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
